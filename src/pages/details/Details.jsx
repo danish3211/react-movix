@@ -15,10 +15,10 @@ const Details = () => {
   return (
     <div>
       <DetailsBanner video={data?.results?.[0]} crew={cradits?.crew}/>
-      {/* <Cast data={cradits?.cast} loading={craditsLoading}/> */}
+      <Cast data={cradits?.cast} loading={craditsLoading}/>
       <VideosSection data={data} loading={loading}/>
       <Similar mediaType={mediaType} id={id}/>
-      {/* <Recommendation mediaType={mediaType} id={id}/> */}
+      <Recommendation mediaType={mediaType} id={id}/>
     </div>
   )
 }

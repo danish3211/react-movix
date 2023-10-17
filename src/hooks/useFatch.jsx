@@ -11,15 +11,15 @@ const useFetch = (url) => {
         setError(null);
 
         FetchDataFromApi(url)
-            .then((res) => {
-                setLoading(false);
-                setData(res);
-            })
-            .catch((err) => {
-                setLoading(false);
-                setError("Something went wrong!");
-            });
-    }, [url]);
+        .then((res) => {
+            setLoading(false);
+            setData(res);
+        })
+        .catch((err) => {
+            setLoading(false);
+            setError("Something went wrong!");
+        });
+}, [url]);
 
     return { data, loading, error };
 };

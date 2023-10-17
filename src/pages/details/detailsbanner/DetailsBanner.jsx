@@ -144,7 +144,7 @@ const DetailsBanner = ({ video, crew }) => {
                                             )}
                                         </div>
 
-                                        {/* {director?.length > 0 && (
+                                        {director?.length > 0 && (
                                             <div className="info">
                                                 <span className="text bold">
                                                     Director:{" "}
@@ -200,7 +200,7 @@ const DetailsBanner = ({ video, crew }) => {
                                                     )}
                                                 </span>
                                             </div>
-                                        )} */}
+                                        )}
                                     </div>
                                 </div>
                                 <VideoPopup
